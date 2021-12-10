@@ -6,7 +6,7 @@ const options = {
   url: "https://api-dev.digisac.io/v1/messages",
   headers: {
     "Content-Type": "application/json",
-    Authorization: "Bearer 3641704f96c37f417c4beb70c42e50b8d9b4b611",
+    Authorization: "Bearer token", //colocar o token
   },
   data: {
     text: "teste #2",
